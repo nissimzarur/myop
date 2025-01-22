@@ -14,6 +14,18 @@ function TicketsPage({ userType }: ITicketsPage) {
         You are on <b>{userType.toUpperCase()}</b> mode
       </div>
       <Spacer size="lg" />
+      <div className="w-full items-center flex flex-col">
+        <input
+          type="text"
+          placeholder="Search..."
+          className="border p-3 rounded-lg"
+          onChange={(e) => {
+            ticketsResp.searchTickets(e.target.value);
+          }}
+        />
+        {ticketsResp.loading && <div>Fetching data, please wait...</div>}
+      </div>
+      <Spacer size="lg" />
       <TicketsViewFactory userType={userType} tickets={ticketsResp.tickets} />
       <Spacer size="lg" />
       <div className="w-full items-center flex flex-col">

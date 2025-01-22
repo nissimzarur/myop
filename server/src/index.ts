@@ -4,7 +4,7 @@ import loadTickets from "./services/load-tickets";
 
 const express = require("express");
 const dotenv = require("dotenv");
-const cors = require('cors')
+const cors = require("cors");
 
 dotenv.config();
 
@@ -17,13 +17,21 @@ app.get("/api/tickets", (req: Request, res: Response) => {
   const tickets = loadTickets();
 
   const query = req.query as unknown as IRequestTicket;
-  const { page = 1, limit = 3, userType } = query;
+  const { page = 1, limit = 3, userType, search = "" } = query;
 
   let filteredTickets = tickets;
 
   if (userType) {
     filteredTickets = filteredTickets.filter(
       (ticket: ITicket) => ticket.userType === userType
+    );
+  }
+
+  if (search) {
+    filteredTickets = filteredTickets.filter(
+      (ticket: ITicket) =>
+        ticket.title.toLowerCase().includes(search.toLowerCase()) ||
+        ticket.description.toLowerCase().includes(search.toLowerCase())
     );
   }
 

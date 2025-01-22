@@ -14,6 +14,7 @@ interface IRequestTicket {
   limit: number;
   page: number;
   userType: "local" | "tourist";
+  search: string
 }
 
 export { ITicket, IRequestTicket };

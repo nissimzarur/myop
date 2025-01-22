@@ -8,4 +8,5 @@ export default interface IGetTicketsResponse {
 
 export interface IGetTicketsParams {
   page: number;
+  search: string;
 }
