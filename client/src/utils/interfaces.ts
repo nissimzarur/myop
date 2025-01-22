@@ -1,4 +1,4 @@
-export type UserTicket = "local" | "tourist" | null;
+export type UserTicket = "local" | "tourist";
 
 export interface ITicket {
   id: number;
@@ -7,5 +7,5 @@ export interface ITicket {
   date: string;
   location: string;
   image: string;
-  userType: UserTicket;
+  userType: "local" | "tourist";
 }

@@ -6,12 +6,12 @@ import Screen from "../../components/screen";
 
 function TicketsPage({ userType }: ITicketsPage) {
   const ticketsResp = useLoadTickets(userType);
-  const mode = userType && userType.toUpperCase() || 'All';
+
   return (
     <Screen>
       <Spacer size="lg" />
       <div className="text-center text-5xl font-thin">
-        You are on <b>{mode}</b> mode
+        You are on <b>{userType.toUpperCase()}</b> mode
       </div>
       <Spacer size="lg" />
       <div className="w-full items-center flex flex-col">
