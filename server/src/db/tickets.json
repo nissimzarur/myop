@@ -1,202 +1,162 @@
 [
   {
     "id": 1,
-    "title": "Event 1",
-    "description": "This is the description for event 1",
+    "title": "Local Art Festival",
+    "description": "Celebrate creativity at the Local Art Festival, featuring exhibits by talented local artists.",
     "date": "2025-01-01T10:00:00Z",
     "location": "Location 1",
     "userType": "local"
   },
   {
     "id": 2,
-    "title": "Event 2",
-    "description": "This is the description for event 2",
+    "title": "Tourist Guided City Tour",
+    "description": "Join a guided tour exploring the city's historic landmarks and vibrant streets.",
     "date": "2025-01-02T10:00:00Z",
     "location": "Location 2",
     "userType": "tourist"
   },
   {
     "id": 3,
-    "title": "Event 3",
-    "description": "This is the description for event 3",
+    "title": "Community Sports Day",
+    "description": "Participate in a day full of sports activities and games organized for the local community.",
     "date": "2025-01-03T10:00:00Z",
     "location": "Location 3",
     "userType": "local"
   },
   {
     "id": 4,
-    "title": "Event 4",
-    "description": "This is the description for event 4",
+    "title": "Beach Adventure for Tourists",
+    "description": "Relax and have fun with activities like snorkeling and kayaking at a beautiful seaside location.",
     "date": "2025-01-04T10:00:00Z",
     "location": "Location 4",
     "userType": "tourist"
   },
   {
     "id": 5,
-    "title": "Event 5",
-    "description": "This is the description for event 5",
+    "title": "Farmers' Market Extravaganza",
+    "description": "Discover fresh produce, handmade crafts, and more at the bustling farmers' market.",
     "date": "2025-01-05T10:00:00Z",
     "location": "Location 5",
     "userType": "local"
   },
   {
     "id": 6,
-    "title": "Event 6",
-    "description": "This is the description for event 6",
+    "title": "Historic Castle Tour",
+    "description": "Step back in time with a guided tour of a historic castle, perfect for tourists.",
     "date": "2025-01-06T10:00:00Z",
     "location": "Location 6",
     "userType": "tourist"
   },
   {
     "id": 7,
-    "title": "Event 7",
-    "description": "This is the description for event 7",
+    "title": "Neighborhood Cleanup Drive",
+    "description": "Join the community in keeping the neighborhood clean and green for a better tomorrow.",
     "date": "2025-01-07T10:00:00Z",
     "location": "Location 7",
     "userType": "local"
   },
   {
     "id": 8,
-    "title": "Event 8",
-    "description": "This is the description for event 8",
+    "title": "Tourist Food Walk",
+    "description": "Indulge in the local cuisine with a guided food walk through the city’s culinary hotspots.",
     "date": "2025-01-08T10:00:00Z",
     "location": "Location 8",
     "userType": "tourist"
   },
   {
     "id": 9,
-    "title": "Event 9",
-    "description": "This is the description for event 9",
+    "title": "Local Book Club Gathering",
+    "description": "Engage in meaningful discussions with fellow book lovers at the monthly book club meeting.",
     "date": "2025-01-09T10:00:00Z",
     "location": "Location 9",
     "userType": "local"
   },
   {
     "id": 10,
-    "title": "Event 10",
-    "description": "This is the description for event 10",
+    "title": "Scenic Mountain Hike",
+    "description": "Enjoy breathtaking views and fresh air on a guided hike through scenic trails.",
     "date": "2025-01-10T10:00:00Z",
     "location": "Location 10",
     "userType": "tourist"
   },
   {
     "id": 11,
-    "title": "Event 11",
-    "description": "This is the description for event 11",
+    "title": "Local Music Jam Session",
+    "description": "Unwind and enjoy live performances by local musicians in a casual setting.",
     "date": "2025-01-11T10:00:00Z",
     "location": "Location 11",
     "userType": "local"
   },
   {
     "id": 12,
-    "title": "Event 12",
-    "description": "This is the description for event 12",
+    "title": "Wine Tasting Tour",
+    "description": "Savor the region’s best wines on a tasting tour designed for tourists.",
     "date": "2025-01-12T10:00:00Z",
     "location": "Location 12",
     "userType": "tourist"
   },
   {
     "id": 13,
-    "title": "Event 13",
-    "description": "This is the description for event 13",
+    "title": "Neighborhood Potluck Dinner",
+    "description": "Share a meal with your neighbors at a cozy potluck dinner event.",
     "date": "2025-01-13T10:00:00Z",
     "location": "Location 13",
     "userType": "local"
   },
   {
     "id": 14,
-    "title": "Event 14",
-    "description": "This is the description for event 14",
+    "title": "Sunset Cruise Adventure",
+    "description": "Set sail on a serene sunset cruise perfect for sightseeing tourists.",
     "date": "2025-01-14T10:00:00Z",
     "location": "Location 14",
     "userType": "tourist"
   },
   {
     "id": 15,
-    "title": "Event 15",
-    "description": "This is the description for event 15",
+    "title": "Local Charity Run",
+    "description": "Support a good cause by participating in a charity run for the local community.",
     "date": "2025-01-15T10:00:00Z",
     "location": "Location 15",
     "userType": "local"
   },
   {
     "id": 16,
-    "title": "Event 16",
-    "description": "This is the description for event 16",
+    "title": "Cultural Heritage Walk",
+    "description": "Discover the rich cultural history of the area on a guided walking tour.",
     "date": "2025-01-16T10:00:00Z",
     "location": "Location 16",
     "userType": "tourist"
   },
   {
     "id": 17,
-    "title": "Event 17",
-    "description": "This is the description for event 17",
+    "title": "Local Gardening Workshop",
+    "description": "Learn essential gardening skills and tips at a workshop for local residents.",
     "date": "2025-01-17T10:00:00Z",
     "location": "Location 17",
     "userType": "local"
   },
   {
     "id": 18,
-    "title": "Event 18",
-    "description": "This is the description for event 18",
+    "title": "Tourist Wildlife Safari",
+    "description": "Experience the thrill of nature on a guided wildlife safari tour.",
     "date": "2025-01-18T10:00:00Z",
     "location": "Location 18",
     "userType": "tourist"
   },
   {
     "id": 19,
-    "title": "Event 19",
-    "description": "This is the description for event 19",
+    "title": "Community Yoga Session",
+    "description": "Relax and rejuvenate at an open yoga session for the local community.",
     "date": "2025-01-19T10:00:00Z",
     "location": "Location 19",
     "userType": "local"
   },
   {
     "id": 20,
-    "title": "Event 20",
-    "description": "This is the description for event 20",
+    "title": "Tourist Hot Air Balloon Ride",
+    "description": "Soar above stunning landscapes on a hot air balloon ride tailored for tourists.",
     "date": "2025-01-20T10:00:00Z",
     "location": "Location 20",
     "userType": "tourist"
-  },
-  {
-    "id": 21,
-    "title": "Event 21",
-    "description": "This is the description for event 21",
-    "date": "2025-01-21T10:00:00Z",
-    "location": "Location 21",
-    "userType": "local"
-  },
-  {
-    "id": 22,
-    "title": "Event 22",
-    "description": "This is the description for event 22",
-    "date": "2025-01-22T10:00:00Z",
-    "location": "Location 22",
-    "userType": "tourist"
-  },
-  {
-    "id": 23,
-    "title": "Event 23",
-    "description": "This is the description for event 23",
-    "date": "2025-01-23T10:00:00Z",
-    "location": "Location 23",
-    "userType": "local"
-  },
-  {
-    "id": 24,
-    "title": "Event 24",
-    "description": "This is the description for event 24",
-    "date": "2025-01-24T10:00:00Z",
-    "location": "Location 24",
-    "userType": "tourist"
-  },
-  {
-    "id": 25,
-    "title": "Event 25",
-    "description": "This is the description for event 25",
-    "date": "2025-01-25T10:00:00Z",
-    "location": "Location 25",
-    "userType": "local"
   }
 ]
