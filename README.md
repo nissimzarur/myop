@@ -28,6 +28,6 @@ cd client
 - npm install
 - npm run dev
   
-cd ../ && cd server
+cd ./.. && cd server
 - npm install
 - npm run dev
