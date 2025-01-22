@@ -1,0 +1,1 @@
+export const GET_TICKETS_URL = 'http://localhost:3000/api/tickets'
