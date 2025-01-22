@@ -3,6 +3,7 @@
 ## MYOP APPLICATION ##
 
 ## Stack
+- Vite
 - React with Hooks
 - TypeScript
 - Express
