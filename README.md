@@ -1,15 +1,15 @@
 
 
-## MYOP APPLICATION ##
+# MYOP APPLICATION #
 
-## Stack
+## STACK
 - Vite
 - React with Hooks
 - TypeScript
 - Express
 - Tailwind css
 
-## Features
+## FEATURES
   - Pagination
   - Support search
   - RESTful API integration
