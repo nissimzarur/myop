@@ -7,6 +7,7 @@ function TicketsViewFactory({ userType, tickets }: ITicketsViewFactory) {
 
   switch (userType) {
     case "local":
+    case null:
       return <Local data={tickets} />;
 
     case "tourist":

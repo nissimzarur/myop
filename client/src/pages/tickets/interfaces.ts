@@ -1,3 +1,3 @@
 export interface ITicketsPage {
-  userType: "local" | "tourist";
+  userType: "local" | "tourist" | null;
 }
